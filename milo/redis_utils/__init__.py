@@ -7,6 +7,9 @@ from redis import StrictRedis
 
 db = StrictRedis(db=6)
 
+__all__ = ('memoize', )
+
+
 def memoize(func, ttl=300):
 
     """
