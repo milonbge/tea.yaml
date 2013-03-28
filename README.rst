@@ -14,7 +14,13 @@ found myself rewriting or copying and pasting.
 Current contents:
 
 * a memoize function implemented in Redis
+* a simple XML -> dictionary parser
+
+Planned additions:
+
+* easy command-line e-mail utility, with attachments
 
 Dependencies:
 
 * the `redis` module
+

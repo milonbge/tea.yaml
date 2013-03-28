@@ -2,9 +2,11 @@ from setuptools import setup
 
 setup(
     name='milo',
-    version='0.1.3',
+    version='0.1.4',
     description="Useful Python code, primarily intented for the author's use.",
-    packages=['milo', 'milo.redis_utils'],
+    packages=[
+        'milo', 'milo.redis_utils', 'milo.xml',
+    ],
     license='BSD',
     url='https://github.com/ShawnMilo/milo',
     author='Shawn Milochik',
