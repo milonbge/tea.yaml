@@ -13,7 +13,7 @@ found myself rewriting or copying and pasting.
 
 Current contents:
 
-* a memoize function implement in Redis
+* a memoize function implemented in Redis
 
 Dependencies:
 
