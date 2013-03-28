@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='milo',
     version='0.1',
-    description="Useful Python code, primarily intented for the author's use."
+    description="Useful Python code, primarily intented for the author's use.",
     packages=['milo',],
     license='BSD',
     url='https://github.com/ShawnMilo/milo',
