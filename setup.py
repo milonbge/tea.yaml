@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='milo',
-    version='0.1',
+    version='0.1.2',
     description="Useful Python code, primarily intented for the author's use.",
     packages=['milo',],
     license='BSD',
@@ -11,5 +11,6 @@ setup(
     author_email='shawn@milochik.com',
     zip_safe=False,
     keywords='milo stuff',
-    test_suite="milo.tests",
+    install_requires=['redis>=2.7.2'],
+    #test_suite="milo.tests",
 )
