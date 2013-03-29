@@ -15,6 +15,7 @@ Current contents:
 
 * a memoize function implemented in Redis
 * a simple XML -> dictionary parser
+* polite_get: get a URL, with auto-caching
 
 Planned additions:
 
@@ -23,4 +24,4 @@ Planned additions:
 Dependencies:
 
 * the `redis` module
-
+* the `requests` package

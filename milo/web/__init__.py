@@ -8,6 +8,8 @@ HR_IN_SECS = int(timedelta(hours=1).total_seconds())
 
 db = StrictRedis()
 
+__all__ = ('polite_get',)
+
 def polite_get(url):
     
     """
