@@ -27,6 +27,9 @@ def polite_get(url):
         
         page = requests.get(url)
         result = page.text
-        db.setex(key, HR_IN_SECS, result)
+        db.setex(key, HR_IN_SECS, result.encode('utf-8'))
         
+    else: 
+        result = result.decode('utf-8')
+
     return result
