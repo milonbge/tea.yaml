@@ -5,7 +5,7 @@ setup(
     version='0.1.4',
     description="Useful Python code, primarily intented for the author's use.",
     packages=[
-        'milo', 'milo.redis_utils', 'milo.xml',
+        'milo', 'milo.redis_utils', 'milo.xml', 'milo.web',
     ],
     license='BSD',
     url='https://github.com/ShawnMilo/milo',
