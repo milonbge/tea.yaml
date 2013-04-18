@@ -16,6 +16,7 @@ Current contents:
 * a memoize function implemented in Redis
 * a simple XML -> dictionary parser
 * polite_get: get a URL, with auto-caching
+* a simple get_logger that logs to a temp file, and stdout if interactive
 
 Planned additions:
 
