@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     name='milo',
-    version='0.1.7',
+    version='0.1.8',
     description="Useful Python code, primarily intented for the author's use.",
     packages=[
-        'milo', 'milo.redis_utils', 'milo.xml', 'milo.web',
+        'milo', 'milo.redis_utils', 'milo.xml', 'milo.web', 'milo.logger',
     ],
     license='BSD',
     url='https://github.com/ShawnMilo/milo',
