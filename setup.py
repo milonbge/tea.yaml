@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='milo',
-    version='0.1.8',
+    version='0.1.9',
     description="Useful Python code, primarily intented for the author's use.",
     packages=[
         'milo', 'milo.redis_utils', 'milo.xml', 'milo.web', 'milo.logger',
