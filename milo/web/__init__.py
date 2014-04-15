@@ -6,14 +6,13 @@ import requests
 
 TTL = int(timedelta(hours=1).total_seconds())
 
-
 __all__ = ('polite_get',)
 
 def polite_get(url, ttl=TTL, db=0, port=6379):
-    
+
     """
     Don't hammer the remote servers.
-    
+
     1. They don't update that often anyway.
     2. We don't want to get throttled or banned.
     3. It's polite.
@@ -28,12 +27,12 @@ def polite_get(url, ttl=TTL, db=0, port=6379):
     result = db.get(key)
 
     if result is None:
-        
+
         page = requests.get(url)
         result = page.text
         db.setex(key, ttl, result.encode('utf-8'))
-        
-    else: 
+
+    else:
         result = result.decode('utf-8')
 
     return result

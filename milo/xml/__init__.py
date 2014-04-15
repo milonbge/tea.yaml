@@ -14,7 +14,7 @@ def parse(xml, element_name):
 
     """
     Given an XML string and an element name, iterate
-    through all children with that element name and 
+    through all children with that element name and
     return a dictionary of that element's childred.
 
     Arguments:
@@ -45,4 +45,3 @@ def parse(xml, element_name):
         items.append(item)
 
     return items
-
